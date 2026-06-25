@@ -1,0 +1,216 @@
+{
+  "siteTitle": "FoodExpertisePortal",
+  "homeTitle": "Food Expertise Portal",
+  "about": "About",
+    "systems": "Management Systems",
+  "standards": "Standards",
+  "glossary": "Glossary",
+  "contacts": "Contacts",
+  "navigation": {
+    "home": "Home",
+    "education": "Education",
+    "systems": "Expertise Systems",
+    "standards": "Standards",
+    "glossary": "Glossary",
+    "laboratory": "Laboratory",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Professional Expertise Portal",
+    "title1": "Food",
+    "title2": "Expertise",
+    "description": "Platform for food safety standards, management systems, laboratory research and educational materials.",
+    "ctaPrimary": "Start Learning",
+    "ctaSecondary": "View Standards",
+    "stats": {
+      "standards": "Standards",
+      "systems": "Systems",
+      "materials": "Materials"
+    }
+  },
+  "modules": {
+    "title": "Portal Modules",
+    "subtitle": "Choose the right direction for food expertise work",
+    "open": "Go to",
+    "items": {
+      "systems": {
+        "title": "Management Systems",
+        "description": "HACCP, ISO 22000, FSSC 22000, BRCGS, IFS and other safety systems."
+      },
+      "standards": {
+        "title": "Standards",
+        "description": "Regulatory documents, DSTU, technical regulations and legislation."
+      },
+      "laboratory": {
+        "title": "Laboratory",
+        "description": "Methods of microbiological, chemical and physico-chemical research."
+      },
+      "education": {
+        "title": "Education",
+        "description": "Educational materials, courses and cases for students and professionals."
+      },
+      "glossary": {
+        "title": "Glossary",
+        "description": "Definitions and terms in the field of food safety."
+      },
+      "search": {
+        "title": "Search",
+        "description": "Global search across all portal materials and documents."
+      }
+    }
+  },
+  "footer": {
+    "description": "Professional food expertise portal. Safety standards, management systems, laboratory research and educational materials.",
+    "copyright": "© {year} FoodExpertisePortal. All rights reserved.",
+    "nav": {
+      "title": "Navigation",
+      "home": "Home",
+      "about": "About Us",
+      "contact": "Contact",
+      "education": "Education"
+    },
+    "modules": {
+      "title": "Modules",
+      "systems": "Management Systems",
+      "standards": "Standards",
+      "laboratory": "Laboratory",
+      "glossary": "Glossary"
+    },
+    "contact": {
+      "title": "Contact",
+      "location": "Ukraine, Kyiv"
+    },
+    "legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use"
+    }
+  },
+  "education": {
+    "title": "Educational Materials",
+  "description": "Professional courses on food expertise, management systems and international standards",
+  "backToCourses": "← Back to Courses",
+  "backToCourse": "← Back to Course",
+  "lessonCount": "lessons",  
+  "pages": "pages",
+  "startCourse": "Start Course",
+  "startLesson": "Start Lesson",
+  "previous": "Previous",
+  "next": "Next",
+    "levels": {
+      "bachelors": "Bachelor",
+      "masters": "Master",
+      "phd": "PhD"
+    },
+    "modules": {
+      "title": "Modules",
+      "theoreticalFoundations": "Theoretical Foundations",
+      "efficiencyAssessment": "Efficiency Assessment",
+      "iso22000": "ISO 22000",
+      "diagnostics": "Diagnostics",
+      "brc": "BRC",
+      "ifs": "IFS",
+      "fssc22000": "FSSC 22000",
+      "certification": "Certification"
+    },
+    "courses": {
+      "foodSafety": {
+        "title": "Food Safety Management Systems",
+        "description": "Comprehensive course on quality management and food safety according to international standards ISO 22000, FSSC 22000, BRC, IFS"
+      }
+    },
+    "lessons": {
+      "topic1": {
+        "title": "Theoretical Justification of Management System Effectiveness",
+        "description": "Quality of management system, controlling and its role in ensuring quality",
+        "subtopics": {
+          "qualitySystem": "Quality of Management System",
+          "controlling": "Controlling",
+          "selfCheck": "Self-Check"
+        }
+      },
+      "topic2": {
+        "title": "Methodological Approach to Efficiency Assessment",
+        "description": "Process scheme, personnel, management potential, organizational climate",
+        "subtopics": {
+          "processScheme": "Process Scheme",
+          "personnel": "Personnel",
+          "potential": "Potential",
+          "climate": "Climate"
+        }
+      },
+      "topic3": {
+        "title": "Management System According to ISO 22000",
+        "description": "Product control, standards, ISO 22000 requirements",
+        "subtopics": {
+          "foodControl": "Product Control",
+          "standards": "Standards",
+          "iso22000": "ISO 22000",
+          "international": "International Standards"
+        }
+      },
+      "topic4": {
+        "title": "Diagnostics Methodology of Management System Effectiveness",
+        "description": "Conceptual approach, functional character, adaptation model",
+        "subtopics": {
+          "conceptual": "Conceptual Approach",
+          "functional": "Functional Character",
+          "adaptation": "Adaptation Model"
+        }
+      },
+      "topic5": {
+        "title": "BRC Standard",
+        "description": "BRC Global Standard — Food, characteristics, features",
+        "subtopics": {
+          "brcCharacteristics": "Characteristics",
+          "brcFeatures": "Features",
+          "brcPackaging": "Packaging"
+        }
+      },
+      "topic6": {
+        "title": "IFS Food Standard",
+        "description": "Implementation goals, advantages, sectors, certification",
+        "subtopics": {
+          "ifsGoals": "Goals",
+          "ifsAdvantages": "Advantages",
+          "ifsSectors": "Sectors",
+          "certification": "Certification"
+        }
+      },
+      "topic7": {
+        "title": "FSSC 22000 Standard",
+        "description": "Formation stages, advantages, certification, PAS 220",
+        "subtopics": {
+          "fsscStages": "Stages",
+          "fsscAdvantages": "Advantages",
+          "fsscCertification": "Certification",
+          "pas220": "PAS 220"
+        }
+      },
+      "topic8": {
+        "title": "FSSC 22000 Certification Scheme",
+        "description": "Certification principles, organizational level, processes",
+        "subtopics": {
+          "certificationScheme": "Scheme",
+          "structure": "Structure",
+          "principles": "Principles",
+          "organizational": "Organizational Level"
+        }
+      }
+    },
+    "diagram": {
+      "managementSystem": "Enterprise Management System",
+      "controlSystem": "Controlling Subsystem",
+      "controlledSystem": "Controlled Subsystem",
+      "controllingProcess": "Controlling Process"
+    },
+    "controlling": {
+      "standards": "Establishment of standards and planned tasks",
+      "comparison": "Comparison of indicators with standards",
+      "measurement": "Measurement of results and evaluation"
+    },
+    "lessonContent": {
+      "comingSoon": "Lesson content is loading... Materials from your lecture notes with diagrams, schemes and interactive elements will be placed here."
+    }
+  }
+}

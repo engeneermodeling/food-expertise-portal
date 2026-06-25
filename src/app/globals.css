@@ -1,26 +1,33 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  /* Брендові кольори для логотипу */
+  --color-brand-food: #1A4B8C;
+  --color-brand-food-dark: #6BA8E0;
+  --color-brand-expertise: #27AE60;
+  --color-brand-expertise-dark: #2ECC71;
+  
+  /* Кольори для щита */
+  --color-shield-outer: #1A4B8C;
+  --color-shield-outer-dark: #163A6B;
+  --color-shield-inner: #2060B0;
+  --color-shield-inner-dark: #1E5099;
+  
+  /* CSS змінні для темної теми */
+  --logo-shield-outer: #1A4B8C;
+  --logo-shield-outer-dark: #163A6B;
+  --logo-shield-inner: #2060B0;
+  --logo-shield-inner-dark: #1E5099;
+  --logo-text-food: #1A4B8C;
+  --logo-text-food-dark: #6BA8E0;
+  --logo-text-portal: #6B7A8D;
+  --logo-text-portal-dark: #4A7A9B;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+/* Темна тема */
+@custom-variant dark (&:where(.dark, .dark *));
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* Базові стилі */
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100;
 }

@@ -1,0 +1,16 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="80" fill="#1A4B8C"/>
+  <path d="M256,60 L356,105 L356,220 Q356,320 256,370 Q156,320 156,220 L156,105 Z" fill="#2060B0"/>
+  <!-- Wheat left -->
+  <line x1="218" y1="300" x2="218" y2="140" stroke="#27AE60" stroke-width="5" stroke-linecap="round"/>
+  <ellipse cx="200" cy="270" rx="16" ry="30" fill="#2ECC71" transform="rotate(-22,200,270)"/>
+  <ellipse cx="224" cy="230" rx="16" ry="30" fill="#27AE60" transform="rotate(18,224,230)"/>
+  <ellipse cx="200" cy="192" rx="14" ry="24" fill="#2ECC71" transform="rotate(-18,200,192)"/>
+  <!-- Wheat right -->
+  <line x1="294" y1="300" x2="294" y2="140" stroke="#27AE60" stroke-width="5" stroke-linecap="round"/>
+  <ellipse cx="312" cy="270" rx="16" ry="30" fill="#2ECC71" transform="rotate(22,312,270)"/>
+  <ellipse cx="288" cy="230" rx="16" ry="30" fill="#27AE60" transform="rotate(-18,288,230)"/>
+  <ellipse cx="312" cy="192" rx="14" ry="24" fill="#2ECC71" transform="rotate(18,312,192)"/>
+  <!-- Checkmark -->
+  <path d="M216,220 L248,268 L308,178" fill="none" stroke="white" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
