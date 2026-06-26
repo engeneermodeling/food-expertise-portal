@@ -1,37 +1,136 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🍽️ FoodExpertisePortal
 
-## Getting Started
+**Професійний портал з експертизи харчових продуктів**
 
-First, run the development server:
+> Платформа для стандартів харчової безпеки, систем менеджменту, лабораторних досліджень та освітніх матеріалів.
+
+[![Version](https://img.shields.io/badge/version-v0.2.0-blue)](./ROADMAP.md)
+[![Next.js](https://img.shields.io/badge/Next.js-16-black)](https://nextjs.org/)
+[![License](https://img.shields.io/badge/license-All%20rights%20reserved-red)](#-ліцензія)
+
+---
+
+## 🛠️ Технічний стек
+
+| Технологія | Версія | Призначення |
+|---|---|---|
+| [Next.js](https://nextjs.org/) | 16 | Framework (App Router, Turbopack) |
+| [React](https://react.dev/) | 19 | UI (Server Components) |
+| [Tailwind CSS](https://tailwindcss.com/) | v4 | Стилізація + Dark Mode |
+| [MDX](https://mdxjs.com/) | — | Навчальні матеріали |
+| [next-intl](https://next-intl-docs.vercel.app/) | — | i18n (uk, en, ru) |
+| [next-themes](https://github.com/pacocoursey/next-themes) | — | Перемикання теми |
+| TypeScript | latest | Типізація |
+
+---
+
+## 🚀 Запуск
+
+### Вимоги
+- Node.js `>= 18.0`
+- npm `>= 9.0`
 
 ```bash
+# Клонування
+git clone https://github.com/your-username/food-expertise-portal.git
+cd food-expertise-portal
+
+# Встановлення залежностей
+npm install
+
+# Dev-сервер
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Відкрити: `http://localhost:3000/uk`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Команди
+```bash
+npm run dev      # Режим розробки
+npm run build    # Production збірка
+npm run start    # Production сервер
+npm run lint     # ESLint перевірка
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📁 Структура проєкту
 
-To learn more about Next.js, take a look at the following resources:
+```
+food-expertise-portal/
+├── public/
+│   ├── favicon.ico
+│   ├── grid.svg
+│   └── images/
+│
+├── src/
+│   ├── app/
+│   │   └── [locale]/              # uk | en | ru
+│   │       ├── education/
+│   │       ├── standards/
+│   │       ├── systems/
+│   │       ├── laboratory/
+│   │       ├── glossary/
+│   │       └── page.tsx
+│   │
+│   ├── components/
+│   │   ├── layout/                # Header, Footer, PageContainer
+│   │   ├── mdx/                   # Definition, KeyPoint, Warning...
+│   │   └── theme/                 # ThemeProvider
+│   │
+│   ├── config/
+│   │   ├── i18n.ts
+│   │   └── app.ts
+│   │
+│   ├── content/                   # MDX контент курсів
+│   │   └── uk/courses/
+│   │
+│   ├── lib/
+│   │   └── mdx.ts
+│   │
+│   └── messages/                  # uk.json | en.json | ru.json
+│
+├── docs/
+│   └── courses.md                 # Каталог курсів та їх зміст
+│
+├── ROADMAP.md
+└── README.md
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🏷️ Версіонування
 
-## Deploy on Vercel
+Проєкт використовує [Semantic Versioning](https://semver.org/). Версія визначається в `package.json` і автоматично підтягується у Footer сайту.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm version patch   # 0.2.0 → 0.2.1  (виправлення)
+npm version minor   # 0.2.0 → 0.3.0  (нова функція)
+npm version major   # 0.2.0 → 1.0.0  (breaking change)
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# food-expertise-portal
+Детальна історія змін — у [ROADMAP.md](./ROADMAP.md).
+
+---
+
+## 📄 Ліцензія
+
+© 2021–2026 Попова Н.В., Мисюра Т.Г. Всі права захищено.  
+Використання матеріалів — лише з посиланням на авторів та НУХТ.
+
+---
+
+## 📞 Контакти
+
+| | Попова Наталія Вікторівна | Мисюра Тарас Григорович |
+|---|---|---|
+| **Роль** | Автор курсу | Співавтор + розробник порталу |
+| **Посада** | к.т.н., доцент | к.т.н., доцент |
+| **Кафедра** | Експертизи харчових продуктів | Процесів і апаратів харчових виробництв |
+| **Email** | [nata_2506@nuft.edu.ua](mailto:nata_2506@nuft.edu.ua) | [taras_as@nuft.edu.ua](mailto:taras_as@nuft.edu.ua) |
+
+🏛️ НУХТ · ННІХТ · м. Київ, вул. Володимирська, 68 · [nuft.edu.ua](https://nuft.edu.ua)
+
+---
+
+<div align="center">Зроблено з ❤️ в Україні</div>

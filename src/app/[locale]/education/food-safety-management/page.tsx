@@ -1,4 +1,4 @@
-import { getCourseData } from '@/lib/mdx';
+import { getCourseData } from '@/lib/mdx/mdx';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 

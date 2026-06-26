@@ -1,10 +1,11 @@
-import { getLessonData } from '@/lib/mdx';
+import { getLessonData } from '@/lib/mdx/mdx';
 import { MDXRemote } from 'next-mdx-remote/rsc';
 import { Definition, KeyPoint, Warning, Example, SelfCheck, Figure } from '@/components/mdx';
 import Link from 'next/link';
 import { useLocale } from 'next-intl';
 
 import { getLocale } from "next-intl/server";
+import Table from '@/lib/mdx/Table';
 
 
 const components = {
@@ -14,6 +15,7 @@ const components = {
   Example,
   SelfCheck,
   Figure,
+  Table
 };
 
 
