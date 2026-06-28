@@ -1,12 +1,14 @@
-import { getLessonData } from '@/lib/mdx/mdx';
-import { MDXRemote } from 'next-mdx-remote/rsc';
-import { Definition, KeyPoint, Warning, Example, SelfCheck, Figure } from '@/components/mdx';
-import Link from 'next/link';
-import { useLocale } from 'next-intl';
+import { getLessonData } from "@/lib/mdx/mdx";
+import { MDXRemote } from "next-mdx-remote/rsc";
+import { Example, SelfCheck, Figure } from "@/components/mdx";
+import Link from "next/link";
+import { useLocale } from "next-intl";
 
 import { getLocale } from "next-intl/server";
-import Table from '@/lib/mdx/Table';
-
+import Table from "@/lib/mdx/Table";
+import Definition from "@/lib/mdx/Definition";
+import KeyPoint from "@/lib/mdx/KeyPoint";
+import Warning from "@/lib/mdx/Warning";
 
 const components = {
   Definition,
@@ -15,9 +17,8 @@ const components = {
   Example,
   SelfCheck,
   Figure,
-  Table
+  Table,
 };
-
 
 export default async function LessonPage({
   params,

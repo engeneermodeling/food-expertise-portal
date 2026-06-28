@@ -1,0 +1,706 @@
+---
+title: "Система управління безпечністю харчових продуктів відповідно до ISO 22000"
+number: 3
+pages: "32-58"
+duration: "120 хв"
+---
+
+<h2 className="block font-bold text-xl rounded-2xl bg-white mb-2 p-6 shadow-md transition-all hover:-translate-y-1 hover:shadow-xl dark:bg-slate-900">
+  Тема 3. Система управління безпечністю харчових продуктів відповідно до ISO
+  22000
+</h2>
+
+## 3.1. Контроль за продуктами харчування та стандарти якості
+
+<Definition term="Безпечність харчових продуктів">
+  Відсутність у харчових продуктах біологічних, хімічних та фізичних небезпек,
+  які можуть завдати шкоди здоров'ю споживачів
+</Definition>
+
+Контроль якості харчових продуктів здійснюється на всіх етапах виробничого ланцюга — від сировини до готової продукції. Основні напрями контролю:
+
+### Види контролю якості:
+
+1. **Вхідний контроль сировини та матеріалів**
+2. **Операційний контроль виробничих процесів**
+3. **Приймальний контроль готової продукції**
+4. **Контроль умов зберігання та транспортування**
+
+<KeyPoint>
+  Система управління безпечністю харчових продуктів (СУБХП) — це сукупність
+  взаємопов'язаних елементів, спрямованих на забезпечення безпечності продуктів
+  на всіх етапах життєвого циклу.
+</KeyPoint>
+
+<Figure caption="Рис. 3.1. Життєвий цикл харчових продуктів">
+  <div className="p-6">
+    <div className="bg-gradient-to-r from-blue-50 to-green-50 dark:from-blue-900/20 dark:to-green-900/20 rounded-lg p-6">
+      <div className="grid grid-cols-5 gap-3 text-center">
+        <div className="bg-white dark:bg-slate-800 p-3 rounded-lg shadow">
+          <div className="text-2xl mb-2">🌾</div>
+          <h5 className="font-bold text-sm text-blue-900 dark:text-blue-100">
+            Виробництво сировини
+          </h5>
+          <p className="text-xs text-slate-600 dark:text-slate-400 mt-1">
+            Сільське господарство
+          </p>
+        </div>
+
+        <div className="bg-white dark:bg-slate-800 p-3 rounded-lg shadow">
+          <div className="text-2xl mb-2">🏭</div>
+          <h5 className="font-bold text-sm text-blue-900 dark:text-blue-100">
+            Переробка
+          </h5>
+          <p className="text-xs text-slate-600 dark:text-slate-400 mt-1">
+            Виробництво
+          </p>
+        </div>
+
+        <div className="bg-white dark:bg-slate-800 p-3 rounded-lg shadow">
+          <div className="text-2xl mb-2">📦</div>
+          <h5 className="font-bold text-sm text-blue-900 dark:text-blue-100">
+            Пакування
+          </h5>
+          <p className="text-xs text-slate-600 dark:text-slate-400 mt-1">
+            Упаковка
+          </p>
+        </div>
+
+        <div className="bg-white dark:bg-slate-800 p-3 rounded-lg shadow">
+          <div className="text-2xl mb-2">🚚</div>
+          <h5 className="font-bold text-sm text-blue-900 dark:text-blue-100">
+            Дистрибуція
+          </h5>
+          <p className="text-xs text-slate-600 dark:text-slate-400 mt-1">
+            Транспортування
+          </p>
+        </div>
+
+        <div className="bg-white dark:bg-slate-800 p-3 rounded-lg shadow">
+          <div className="text-2xl mb-2">🛒</div>
+          <h5 className="font-bold text-sm text-blue-900 dark:text-blue-100">
+            Реалізація
+          </h5>
+          <p className="text-xs text-slate-600 dark:text-slate-400 mt-1">
+            Торгівля
+          </p>
+        </div>
+      </div>
+
+      <div className="mt-4 text-center text-sm text-slate-600 dark:text-slate-400">
+        ← Ланцюг постачання харчових продуктів →
+      </div>
+    </div>
+
+  </div>
+</Figure>
+
+<Warning type="warning">
+  Безпечність харчових продуктів є пріоритетним завданням державної політики у
+  сфері охорони здоров'я населення та забезпечення продовольчої безпеки країни.
+</Warning>
+
+## 3.2. Міжнародні стандарти систем управління
+
+<Definition term="ISO 22000">
+  Міжнародний стандарт, що встановлює вимоги до системи управління безпечністю
+  харчових продуктів для всіх організацій у ланцюгу постачання
+</Definition>
+
+### Розвиток стандартів безпечності харчових продуктів:
+
+<Table>
+  <thead>
+    <tr className="bg-blue-100 dark:bg-blue-900/30">
+      <th className="p-3 text-left">Рік</th>
+      <th className="p-3 text-left">Стандарт</th>
+      <th className="p-3 text-left">Організація</th>
+      <th className="p-3 text-left">Призначення</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr className="border-b border-slate-200 dark:border-slate-700">
+      <td className="p-3 font-medium">1963</td>
+      <td className="p-3">Codex Alimentarius</td>
+      <td className="p-3 text-sm">FAO/WHO</td>
+      <td className="p-3 text-sm">Міжнародний кодекс харчових стандартів</td>
+    </tr>
+    <tr className="border-b border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/50">
+      <td className="p-3 font-medium">1993</td>
+      <td className="p-3">HACCP</td>
+      <td className="p-3 text-sm">Codex Alimentarius</td>
+      <td className="p-3 text-sm">
+        Аналіз небезпек та критичні контрольні точки
+      </td>
+    </tr>
+    <tr className="border-b border-slate-200 dark:border-slate-700">
+      <td className="p-3 font-medium">1998</td>
+      <td className="p-3">BRC</td>
+      <td className="p-3 text-sm">BRC Global Standards</td>
+      <td className="p-3 text-sm">Британський роздрібний консорціум</td>
+    </tr>
+    <tr className="border-b border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/50">
+      <td className="p-3 font-medium">2003</td>
+      <td className="p-3">IFS</td>
+      <td className="p-3 text-sm">IFS Management</td>
+      <td className="p-3 text-sm">Міжнародний стандарт харчових продуктів</td>
+    </tr>
+    <tr className="border-b border-slate-200 dark:border-slate-700">
+      <td className="p-3 font-medium">2005</td>
+      <td className="p-3">ISO 22000</td>
+      <td className="p-3 text-sm">ISO</td>
+      <td className="p-3 text-sm">
+        Системи управління безпечністю харчових продуктів
+      </td>
+    </tr>
+    <tr className="border-b border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/50">
+      <td className="p-3 font-medium">2006</td>
+      <td className="p-3">FSSC 22000</td>
+      <td className="p-3 text-sm">FSSC</td>
+      <td className="p-3 text-sm">
+        Схема сертифікації систем безпеки харчових продуктів
+      </td>
+    </tr>
+  </tbody>
+</Table>
+
+<KeyPoint>
+  ISO 22000 інтегрує принципи HACCP з програмами попередніх умов (PRP) та
+  вимогами системи менеджменту якості ISO 9001.
+</KeyPoint>
+
+## 3.3. Вимоги стандарту ISO 22000:2018
+
+<Definition term="Система управління безпечністю харчових продуктів (СУБХП)">
+  Сукупність взаємопов'язаних елементів організації для розробки політики та
+  цілей у сфері безпечності харчових продуктів, а також процесів і процедур для
+  досягнення цих цілей
+</Definition>
+
+### Основні принципи ISO 22000:
+
+<Figure caption="Рис. 3.2. Принципи системи управління безпечністю харчових продуктів">
+  <div className="p-6">
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div className="bg-gradient-to-br from-blue-500 to-blue-600 text-white p-4 rounded-lg">
+        <div className="text-3xl mb-2">📋</div>
+        <h4 className="font-bold text-sm">Політика безпеки</h4>
+        <p className="text-xs mt-2 opacity-90">Зобов'язання керівництва</p>
+      </div>
+
+      <div className="bg-gradient-to-br from-green-500 to-green-600 text-white p-4 rounded-lg">
+        <div className="text-3xl mb-2">🎯</div>
+        <h4 className="font-bold text-sm">Цілі та планування</h4>
+        <p className="text-xs mt-2 opacity-90">Вимірювані цілі безпеки</p>
+      </div>
+
+      <div className="bg-gradient-to-br from-purple-500 to-purple-600 text-white p-4 rounded-lg">
+        <div className="text-3xl mb-2">️</div>
+        <h4 className="font-bold text-sm">Процеси та ресурси</h4>
+        <p className="text-xs mt-2 opacity-90">Управління операціями</p>
+      </div>
+
+      <div className="bg-gradient-to-br from-orange-500 to-orange-600 text-white p-4 rounded-lg">
+        <div className="text-3xl mb-2">📊</div>
+        <h4 className="font-bold text-sm">Моніторинг та покращення</h4>
+        <p className="text-xs mt-2 opacity-90">Постійне вдосконалення</p>
+      </div>
+    </div>
+
+  </div>
+</Figure>
+
+### Структура ISO 22000:2018:
+
+<Table>
+  <thead>
+    <tr className="bg-blue-100 dark:bg-blue-900/30">
+      <th className="p-3 text-left">Розділ</th>
+      <th className="p-3 text-left">Назва</th>
+      <th className="p-3 text-left">Основний зміст</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr className="border-b border-slate-200 dark:border-slate-700">
+      <td className="p-3 font-medium">4</td>
+      <td className="p-3">Контекст організації</td>
+      <td className="p-3 text-sm">
+        Розуміння організації та її контексту, зацікавлені сторони
+      </td>
+    </tr>
+    <tr className="border-b border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/50">
+      <td className="p-3 font-medium">5</td>
+      <td className="p-3">Лідерство</td>
+      <td className="p-3 text-sm">
+        Політика безпеки, ролі та відповідальність
+      </td>
+    </tr>
+    <tr className="border-b border-slate-200 dark:border-slate-700">
+      <td className="p-3 font-medium">6</td>
+      <td className="p-3">Планування</td>
+      <td className="p-3 text-sm">Дії щодо ризиків, цілі безпеки</td>
+    </tr>
+    <tr className="border-b border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/50">
+      <td className="p-3 font-medium">7</td>
+      <td className="p-3">Підтримка</td>
+      <td className="p-3 text-sm">
+        Ресурси, компетентність, обізнаність, комунікація
+      </td>
+    </tr>
+    <tr className="border-b border-slate-200 dark:border-slate-700">
+      <td className="p-3 font-medium">8</td>
+      <td className="p-3">Операційна діяльність</td>
+      <td className="p-3 text-sm">
+        Програми попередніх умов, HACCP, простежуваність
+      </td>
+    </tr>
+    <tr className="border-b border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/50">
+      <td className="p-3 font-medium">9</td>
+      <td className="p-3">Оцінка ефективності</td>
+      <td className="p-3 text-sm">
+        Моніторинг, вимірювання, аналіз, внутрішній аудит
+      </td>
+    </tr>
+    <tr className="border-b border-slate-200 dark:border-slate-700">
+      <td className="p-3 font-medium">10</td>
+      <td className="p-3">Покращення</td>
+      <td className="p-3 text-sm">
+        Невідповідності, коригувальні дії, постійне покращення
+      </td>
+    </tr>
+  </tbody>
+</Table>
+
+<Example title="Приклад впровадження ISO 22000">
+  <div className="space-y-3">
+    <p>
+      <strong>Молочний завод «Карпати» впровадив ISO 22000:</strong>
+    </p>
+
+    <p>
+      <strong>1. Політика безпеки:</strong> «Забезпечення виробництва безпечної
+      молочної продукції відповідно до вимог законодавства та очікувань
+      споживачів».
+    </p>
+
+    <div>
+      <p>
+        <strong>2. Цілі:</strong>
+      </p>
+
+      <ul className="list-disc list-inside ml-4 space-y-1">
+        <li>Зниження кількості невідповідностей на 30%</li>
+        <li>100% відповідність мікробіологічним показникам</li>
+        <li>Нульовий рівень скарг споживачів на безпеку</li>
+      </ul>
+    </div>
+
+    <div>
+      <p>
+        <strong>3. Результати через рік:</strong>
+      </p>
+
+      <ul className="list-disc list-inside ml-4 space-y-1">
+        <li>Зниження невідповідностей на 45%</li>
+        <li>Успішна сертифікація</li>
+        <li>Збільшення експорту на 25%</li>
+      </ul>
+    </div>
+
+  </div>
+</Example>
+
+## 3.4. Програми попередніх умов (PRP)
+
+<Definition term="Програми попередніх умов (PRP)">
+  Основні умови та діяльність, необхідні для підтримки безпечного середовища у
+  всьому ланцюгу постачання харчових продуктів
+</Definition>
+
+### Основні PRP:
+
+<Figure caption="Рис. 3.3. Програми попередніх умов">
+  <div className="p-6">
+    <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+      <div className="border-2 border-blue-200 dark:border-blue-800 rounded-lg p-4 bg-blue-50 dark:bg-blue-900/20">
+        <h5 className="font-bold text-blue-900 dark:text-blue-100 mb-2">
+          🏢 Інфраструктура
+        </h5>
+        <ul className="text-sm text-slate-700 dark:text-slate-300 space-y-1">
+          <li>• Будівлі та обладнання</li>
+          <li>• Комунікації</li>
+          <li>• Вентиляція</li>
+        </ul>
+      </div>
+
+      <div className="border-2 border-green-200 dark:border-green-800 rounded-lg p-4 bg-green-50 dark:bg-green-900/20">
+        <h5 className="font-bold text-green-900 dark:text-green-100 mb-2">
+          🧹 Санітарія
+        </h5>
+        <ul className="text-sm text-slate-700 dark:text-slate-300 space-y-1">
+          <li>• Прибирання</li>
+          <li>• Дезінфекція</li>
+          <li>• Контроль шкідників</li>
+        </ul>
+      </div>
+
+      <div className="border-2 border-purple-200 dark:border-purple-800 rounded-lg p-4 bg-purple-50 dark:bg-purple-900/20">
+        <h5 className="font-bold text-purple-900 dark:text-purple-100 mb-2">
+          👷 Персонал
+        </h5>
+        <ul className="text-sm text-slate-700 dark:text-slate-300 space-y-1">
+          <li>• Гігієна працівників</li>
+          <li>• Навчання</li>
+          <li>• Медичні огляди</li>
+        </ul>
+      </div>
+
+      <div className="border-2 border-orange-200 dark:border-orange-800 rounded-lg p-4 bg-orange-50 dark:bg-orange-900/20">
+        <h5 className="font-bold text-orange-900 dark:text-orange-100 mb-2">
+          ️ Контроль процесів
+        </h5>
+        <ul className="text-sm text-slate-700 dark:text-slate-300 space-y-1">
+          <li>• Температурний режим</li>
+          <li>• Час обробки</li>
+          <li>• Параметри процесу</li>
+        </ul>
+      </div>
+
+      <div className="border-2 border-red-200 dark:border-red-800 rounded-lg p-4 bg-red-50 dark:bg-red-900/20">
+        <h5 className="font-bold text-red-900 dark:text-red-100 mb-2">
+          🧪 Контроль алергенів
+        </h5>
+        <ul className="text-sm text-slate-700 dark:text-slate-300 space-y-1">
+          <li>• Ідентифікація</li>
+          <li>• Маркування</li>
+          <li>• Запобігання перехресному забрудненню</li>
+        </ul>
+      </div>
+
+      <div className="border-2 border-teal-200 dark:border-teal-800 rounded-lg p-4 bg-teal-50 dark:bg-teal-900/20">
+        <h5 className="font-bold text-teal-900 dark:text-teal-100 mb-2">
+          📋 Документація
+        </h5>
+        <ul className="text-sm text-slate-700 dark:text-slate-300 space-y-1">
+          <li>• Записи</li>
+          <li>• Простежуваність</li>
+          <li>• Відкликання продукції</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</Figure>
+
+<Warning type="info">
+  PRP є фундаментом системи управління безпечністю харчових продуктів. Без
+  ефективних PRP система HACCP не може функціонувати належним чином.
+</Warning>
+
+## 3.5. Принципи HACCP в ISO 22000
+
+<Definition term="HACCP (Hazard Analysis and Critical Control Points)">
+  Система ідентифікації, оцінки та контролю небезпек, які є значущими для
+  безпечності харчових продуктів
+</Definition>
+
+### Сім принципів HACCP:
+
+<Table>
+  <thead>
+    <tr className="bg-blue-100 dark:bg-blue-900/30">
+      <th className="p-3 text-center">№</th>
+      <th className="p-3 text-left">Принцип</th>
+      <th className="p-3 text-left">Опис</th>
+      <th className="p-3 text-left">Результат</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr className="border-b border-slate-200 dark:border-slate-700">
+      <td className="p-3 text-center font-bold">1</td>
+      <td className="p-3 font-medium">Аналіз небезпек</td>
+      <td className="p-3 text-sm">
+        Ідентифікація потенційних небезпек та оцінка їх значущості
+      </td>
+      <td className="p-3 text-sm">Перелік небезпек</td>
+    </tr>
+    <tr className="border-b border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/50">
+      <td className="p-3 text-center font-bold">2</td>
+      <td className="p-3 font-medium">Визначення ККТ</td>
+      <td className="p-3 text-sm">Визначення критичних контрольних точок</td>
+      <td className="p-3 text-sm">Схема ККТ</td>
+    </tr>
+    <tr className="border-b border-slate-200 dark:border-slate-700">
+      <td className="p-3 text-center font-bold">3</td>
+      <td className="p-3 font-medium">Критичні межі</td>
+      <td className="p-3 text-sm">Встановлення критичних меж для кожної ККТ</td>
+      <td className="p-3 text-sm">Граничні значення</td>
+    </tr>
+    <tr className="border-b border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/50">
+      <td className="p-3 text-center font-bold">4</td>
+      <td className="p-3 font-medium">Моніторинг</td>
+      <td className="p-3 text-sm">Система моніторингу для кожної ККТ</td>
+      <td className="p-3 text-sm">Процедури контролю</td>
+    </tr>
+    <tr className="border-b border-slate-200 dark:border-slate-700">
+      <td className="p-3 text-center font-bold">5</td>
+      <td className="p-3 font-medium">Коригувальні дії</td>
+      <td className="p-3 text-sm">
+        Визначення коригувальних дій при відхиленнях
+      </td>
+      <td className="p-3 text-sm">План дій</td>
+    </tr>
+    <tr className="border-b border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/50">
+      <td className="p-3 text-center font-bold">6</td>
+      <td className="p-3 font-medium">Верифікація</td>
+      <td className="p-3 text-sm">
+        Процедури підтвердження ефективності системи
+      </td>
+      <td className="p-3 text-sm">Протоколи верифікації</td>
+    </tr>
+    <tr className="border-b border-slate-200 dark:border-slate-700">
+      <td className="p-3 text-center font-bold">7</td>
+      <td className="p-3 font-medium">Документація</td>
+      <td className="p-3 text-sm">Документування всіх процедур та записів</td>
+      <td className="p-3 text-sm">Система документів</td>
+    </tr>
+  </tbody>
+</Table>
+
+<Example title="Приклад визначення ККТ для пастеризації молока">
+  <div className="space-y-3">
+    <p>
+      <strong>Критична контрольна точка: Пастеризація:</strong>
+    </p>
+
+    <p>
+      <strong>1. Небезпека:</strong> Патогенні мікроорганізми (_Salmonella_, _Listeria_, _E. coli_).
+    </p>
+
+    <div>
+      <p>
+        <strong>2. Критичні межі:</strong>
+      </p>
+
+      <ul className="list-disc list-inside ml-4 space-y-1">
+        <li>Температура: 72–75 °C</li>
+        <li>Час витримки: 15–20 секунд</li>
+      </ul>
+    </div>
+
+    <div>
+      <p>
+        <strong>3. Моніторинг:</strong>
+      </p>
+
+      <ul className="list-disc list-inside ml-4 space-y-1">
+        <li>Автоматичний запис температури</li>
+        <li>Перевірка кожні 30 хвилин</li>
+      </ul>
+    </div>
+
+    <div>
+      <p>
+        <strong>4.Коригувальні дії:</strong>
+      </p>
+
+      <ul className="list-disc list-inside ml-4 space-y-1">
+        <li>При порушенні режиму — автоматичне відведення продукту</li>
+        <li>Повторна пастеризація або утилізація</li>
+      </ul>
+    </div>
+
+    <div>
+      <p>
+        <strong>5. Верифікація:</strong>
+      </p>
+
+      <ul className="list-disc list-inside ml-4 space-y-1">
+        <li>Щоденний аналіз записів</li>
+        <li>Мікробіологічний контроль готової продукції</li>
+      </ul>
+    </div>
+
+  </div>
+</Example>
+
+<KeyPoint>
+  ISO 22000 інтегрує HACCP з системами менеджменту якості, що дозволяє створити
+  комплексну систему управління безпечністю харчових продуктів.
+</KeyPoint>
+
+## 3.6. Простежуваність харчових продуктів
+
+<Definition term="Простежуваність">
+  Здатність відстежувати рух харчових продуктів, кормів та інгредієнтів через
+  усі етапи виробництва, переробки та дистрибуції
+</Definition>
+
+### Вимоги до простежуваності:
+
+<Figure caption="Рис. 3.4. Система простежуваності">
+  <div className="p-6">
+    <div className="bg-slate-100 dark:bg-slate-800 rounded-lg p-6">
+      <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+        <div className="text-center">
+          <div className="bg-blue-100 dark:bg-blue-900/30 p-4 rounded-lg">
+            <div className="text-3xl mb-2">🌾</div>
+            <h5 className="font-bold text-sm">Сировина</h5>
+            <p className="text-xs text-slate-600 dark:text-slate-400">
+              Партія №001
+            </p>
+          </div>
+        </div>
+
+        <div className="text-2xl text-blue-500">→</div>
+
+        <div className="text-center">
+          <div className="bg-green-100 dark:bg-green-900/30 p-4 rounded-lg">
+            <div className="text-3xl mb-2">🏭</div>
+            <h5 className="font-bold text-sm">Виробництво</h5>
+            <p className="text-xs text-slate-600 dark:text-slate-400">
+              Зміна А
+            </p>
+          </div>
+        </div>
+
+        <div className="text-2xl text-green-500">→</div>
+
+        <div className="text-center">
+          <div className="bg-purple-100 dark:bg-purple-900/30 p-4 rounded-lg">
+            <div className="text-3xl mb-2">📦</div>
+            <h5 className="font-bold text-sm">Пакування</h5>
+            <p className="text-xs text-slate-600 dark:text-slate-400">
+              Серія 123
+            </p>
+          </div>
+        </div>
+
+        <div className="text-2xl text-purple-500">→</div>
+
+        <div className="text-center">
+          <div className="bg-orange-100 dark:bg-orange-900/30 p-4 rounded-lg">
+            <div className="text-3xl mb-2">🛒</div>
+            <h5 className="font-bold text-sm">Реалізація</h5>
+            <p className="text-xs text-slate-600 dark:text-slate-400">
+              Магазин №5
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="mt-6 text-center">
+        <p className="text-sm text-slate-600 dark:text-slate-400">
+          <b>Принцип "Крок назад — крок вперед"</b>: кожен учасник
+          ланцюга повинен знати постачальника та споживача продукції
+        </p>
+      </div>
+    </div>
+
+  </div>
+</Figure>
+
+<Warning type="warning">
+  Простежуваність є обов'язковою вимогою законодавства ЄС (Регламент 178/2002)
+  та України (Закон "Про основні принципи та вимоги до безпечності та якості
+  харчових продуктів").
+</Warning>
+
+## 3.7. Управління невідповідностями та відкликання продукції
+
+<Definition term="Відкликання продукції">
+  Процедура вилучення з ринку харчових продуктів, які становлять ризик для
+  здоров'я споживачів
+</Definition>
+
+### Процедура відкликання:
+
+<Table>
+  <thead>
+    <tr className="bg-blue-100 dark:bg-blue-900/30">
+      <th className="p-3 text-center">Етап</th>
+      <th className="p-3 text-left">Дія</th>
+      <th className="p-3 text-left">Термін</th>
+      <th className="p-3 text-left">Відповідальний</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr className="border-b border-slate-200 dark:border-slate-700">
+      <td className="p-3 text-center font-bold">1</td>
+      <td className="p-3 text-sm">Ідентифікація проблеми</td>
+      <td className="p-3 text-sm">Негайно</td>
+      <td className="p-3 text-sm">Відділ якості</td>
+    </tr>
+    <tr className="border-b border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/50">
+      <td className="p-3 text-center font-bold">2</td>
+      <td className="p-3 text-sm">Оцінка ризику</td>
+      <td className="p-3 text-sm">24 години</td>
+      <td className="p-3 text-sm">Комітет з безпеки</td>
+    </tr>
+    <tr className="border-b border-slate-200 dark:border-slate-700">
+      <td className="p-3 text-center font-bold">3</td>
+      <td className="p-3 text-sm">Повідомлення органів влади</td>
+      <td className="p-3 text-sm">24 години</td>
+      <td className="p-3 text-sm">Керівництво</td>
+    </tr>
+    <tr className="border-b border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/50">
+      <td className="p-3 text-center font-bold">4</td>
+      <td className="p-3 text-sm">Сповіщення споживачів</td>
+      <td className="p-3 text-sm">48 годин</td>
+      <td className="p-3 text-sm">Відділ маркетингу</td>
+    </tr>
+    <tr className="border-b border-slate-200 dark:border-slate-700">
+      <td className="p-3 text-center font-bold">5</td>
+      <td className="p-3 text-sm">Вилучення продукції</td>
+      <td className="p-3 text-sm">72 години</td>
+      <td className="p-3 text-sm">Логістика</td>
+    </tr>
+    <tr className="border-b border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/50">
+      <td className="p-3 text-center font-bold">6</td>
+      <td className="p-3 text-sm">Утилізація або переробка</td>
+      <td className="p-3 text-sm">7 днів</td>
+      <td className="p-3 text-sm">Виробництво</td>
+    </tr>
+    <tr className="border-b border-slate-200 dark:border-slate-700">
+      <td className="p-3 text-center font-bold">7</td>
+      <td className="p-3 text-sm">Аналіз причин та коригувальні дії</td>
+      <td className="p-3 text-sm">14 днів</td>
+      <td className="p-3 text-sm">Відділ якості</td>
+    </tr>
+  </tbody>
+</Table>
+
+<Example title="Приклад відкликання продукції">
+  <div className="space-y-3">
+    <p>
+      <strong>Ситуація:</strong> Виявлено перевищення рівня антибіотиків у партії молока.
+    </p>
+
+        <div>
+          <p>
+            <strong>Дії</strong>
+          </p>
+
+          <ul className="list-disc list-inside ml-4 space-y-1">
+            <li>Зупинка реалізації партії №12345</li>
+            <li>Повідомлення Держпродспоживслужби</li>
+            <li>Оголошення для споживачів через ЗМІ</li>
+            <li>Збір продукції з торговельних точок</li>
+            <li>Утилізація відповідно до вимог</li>
+            <li>Розслідування причин (порушення ветеринарного контролю)</li>
+            <li>Впровадження додаткового вхідного контролю</li>
+          </ul>
+        </div>
+
+  </div>
+
+</Example>
+
+<SelfCheck>
+  1. Що таке система управління безпечністю харчових продуктів (СУБХП)? 2.
+  Назвіть основні міжнародні стандарти у сфері безпечності харчових продуктів.
+  3. Які основні вимоги ISO 22000:2018? 4. Що таке програми попередніх умов
+  (PRP)? 5. Перелічіть сім принципів HACCP. 6. Що таке простежуваність харчових
+  продуктів? 7. Яка процедура відкликання продукції з ринку? 8. Як ISO 22000
+  інтегрує HACCP з системами менеджменту якості?
+</SelfCheck>
