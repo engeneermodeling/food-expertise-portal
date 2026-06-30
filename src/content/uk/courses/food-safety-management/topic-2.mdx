@@ -116,13 +116,12 @@ duration: "75 хв"
 
 <Example title="Розрахунок продуктивності праці">
   <div className="space-y-3">
-    <p>
-      Якщо підприємство реалізувало продукції на 10 млн грн, а середньоспискова 
-  чисельність працівників становить 100 осіб, то продуктивність праці одного
-  працівника = 10 000 000 / 100 = <strong>100 000 грн/особу</strong> 
-    </p>
+    <div>
+      Якщо підприємство реалізувало продукції на 10 млн грн, а середньоспискова
+      чисельність працівників становить 100 осіб, то продуктивність праці одного
+      працівника = 10 000 000 / 100 = <strong>100 000 грн/особу</strong>
+    </div>
   </div>
-
 </Example>
 
 ## 2.3. Аналіз потенціалу управління підприємством
@@ -137,9 +136,9 @@ duration: "75 хв"
         <h4 className="font-bold text-blue-900 dark:text-blue-100">
           Кадровий потенціал
         </h4>
-        <p className="text-sm text-slate-600 dark:text-slate-400 mt-2">
+        <div className="text-sm text-slate-600 dark:text-slate-400 mt-2">
           Знання та навички кадрів управління
-        </p>
+        </div>
       </div>
 
       <div className="bg-green-100 dark:bg-green-900/30 p-4 rounded-lg text-center">
@@ -147,9 +146,9 @@ duration: "75 хв"
         <h4 className="font-bold text-green-900 dark:text-green-100">
           Організаційний потенціал
         </h4>
-        <p className="text-sm text-slate-600 dark:text-slate-400 mt-2">
+        <div className="text-sm text-slate-600 dark:text-slate-400 mt-2">
           Структура та процеси
-        </p>
+        </div>
       </div>
 
       <div className="bg-purple-100 dark:bg-purple-900/30 p-4 rounded-lg text-center">
@@ -157,9 +156,9 @@ duration: "75 хв"
         <h4 className="font-bold text-purple-900 dark:text-purple-100">
           Організаційний клімат
         </h4>
-        <p className="text-sm text-slate-600 dark:text-slate-400 mt-2">
+        <div className="text-sm text-slate-600 dark:text-slate-400 mt-2">
           Атмосфера в колективі
-        </p>
+        </div>
       </div>
     </div>
 
@@ -280,26 +279,21 @@ duration: "75 хв"
 
 <Example title="Приклад оцінки організаційного клімату">
   <div className="space-y-3">
-    <p>
+    <div>
       <strong>Ставлення до змін:</strong>
-    </p>
-
-        <div>
-          <p>
-            <strong>Дії</strong>
-          </p>
-
-          <ul className="list-disc list-inside ml-4 space-y-1">
-            <li>Зміни, потрібні за умов кризи (оцінка: 1)</li>
-            <li>Зміни, потрібні за низьких результатів (оцінка: 2)</li>
-            <li>Зміни, що дадуть нові досягнення (оцінка: 3)</li>
-            <li>Вимагають змін зовнішні фактори (оцінка: 4)</li>
-
-          </ul>
-        </div>
-
+    </div>
+    <div>
+      <div>
+        <strong>Дії</strong>
+      </div>
+      <ul className="list-disc list-inside ml-4 space-y-1">
+        <li>Зміни, потрібні за умов кризи (оцінка: 1)</li>
+        <li>Зміни, потрібні за низьких результатів (оцінка: 2)</li>
+        <li>Зміни, що дадуть нові досягнення (оцінка: 3)</li>
+        <li>Вимагають змін зовнішні фактори (оцінка: 4)</li>
+      </ul>
+    </div>
   </div>
-
 </Example>
 
 **Перспективність мислення:**
@@ -318,16 +312,15 @@ duration: "75 хв"
 ### Формула розрахунку потенціалу управління:
 
 <Definition term="Потенціал управління">
-П = К × Кі × Ко.у × Ко.к
-<p>де:</p>
-<ul className="list-disc list-inside ml-4 space-y-1">
-
-<li><strong>К</strong> — кваліфікаційний потенціал</li>
-<li><strong>Кі</strong> — інтелектуальний потенціал</li>
-<li><strong>Ко.у</strong> — коефіцієнт організаційних умов</li>
-<li><strong>Ко.к</strong> — коефіцієнт організаційного клімату</li>
-</ul>
-  </Definition>
+  <div className="font-mono">П = К × Кі × Ко.у × Ко.к</div>
+  <div className="mt-2">де:</div>
+  <ul className="list-disc list-inside ml-4 space-y-1 mt-2">
+    <li><strong>К</strong> — кваліфікаційний потенціал</li>
+    <li><strong>Кі</strong> — інтелектуальний потенціал</li>
+    <li><strong>Ко.у</strong> — коефіцієнт організаційних умов</li>
+    <li><strong>Ко.к</strong> — коефіцієнт організаційного клімату</li>
+  </ul>
+</Definition>
 
 На основі визначеної оцінки організаційного клімату проводиться **загальна оцінка потенціалу управління підприємствами**.
 
@@ -340,33 +333,33 @@ duration: "75 хв"
         <div className="bg-white dark:bg-slate-700 p-4 rounded">
           <div className="text-2xl mb-2">📊</div>
           <h5 className="font-bold text-sm mb-1">Поточна оцінка</h5>
-          <p className="text-xs text-slate-600 dark:text-slate-400">
+          <div className="text-xs text-slate-600 dark:text-slate-400">
             Компетенція +2
-          </p>
+          </div>
         </div>
 
         <div className="bg-white dark:bg-slate-700 p-4 rounded">
           <div className="text-2xl mb-2">📈</div>
           <h5 className="font-bold text-sm mb-1">Можливості підвищення</h5>
-          <p className="text-xs text-slate-600 dark:text-slate-400">
+          <div className="text-xs text-slate-600 dark:text-slate-400">
             Організаційні умови
-          </p>
+          </div>
         </div>
 
         <div className="bg-white dark:bg-slate-700 p-4 rounded">
           <div className="text-2xl mb-2">🎯</div>
           <h5 className="font-bold text-sm mb-1">Реальний потенціал</h5>
-          <p className="text-xs text-slate-600 dark:text-slate-400">
+          <div className="text-xs text-slate-600 dark:text-slate-400">
             Важливий коефіцієнт
-          </p>
+          </div>
         </div>
 
         <div className="bg-white dark:bg-slate-700 p-4 rounded">
           <div className="text-2xl mb-2">📉</div>
           <h5 className="font-bold text-sm mb-1">Різниця</h5>
-          <p className="text-xs text-slate-600 dark:text-slate-400">
+          <div className="text-xs text-slate-600 dark:text-slate-400">
             Вимоги до управління
-          </p>
+          </div>
         </div>
       </div>
     </div>
@@ -387,12 +380,22 @@ duration: "75 хв"
 ---
 
 <SelfCheck>
-  1. Опишіть процес функціонування підприємства як відкритої системи. 2. Назвіть
-  основні складові управління. 3. Перерахуйте показники, які характеризують
-  ефективність використання персоналу на підприємствах. 4. Як здійснюється
-  оцінка рівня якості системи управління? 5. Назвіть групу показників, які
-  характеризують ефективність суб'єкта управління. 6. Що таке кваліфікаційний
-  профіль управлінського персоналу? 7. Як здійснюється оцінка організаційного
-  клімату управління підприємства? 8. Як здійснюється оцінка можливостей в
-  управлінні підприємством?
+  <ol className="list-decimal list-inside ml-4 space-y-1">
+    <li>Опишіть процес функціонування підприємства як відкритої системи.</li>
+    <li>Назвіть основні складові управління.</li>
+    <li>
+      Перерахуйте показники, які характеризують ефективність використання
+      персоналу на підприємствах.
+    </li>
+    <li>Як здійснюється оцінка рівня якості системи управління?</li>
+    <li>
+      Назвіть групу показників, які характеризують ефективність суб'єкта
+      управління.
+    </li>
+    <li>Що таке кваліфікаційний профіль управлінського персоналу?</li>
+    <li>
+      Як здійснюється оцінка організаційного клімату управління підприємства?
+    </li>
+    <li>Як здійснюється оцінка можливостей в управлінні підприємством?</li>
+  </ol>
 </SelfCheck>

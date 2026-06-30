@@ -1,5 +1,5 @@
 'use client';
-
+// src\app\[locale]\education\page.tsx
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import { useLocale } from 'next-intl';

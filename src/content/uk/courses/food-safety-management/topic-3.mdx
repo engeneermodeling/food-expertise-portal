@@ -41,9 +41,9 @@ duration: "120 хв"
           <h5 className="font-bold text-sm text-blue-900 dark:text-blue-100">
             Виробництво сировини
           </h5>
-          <p className="text-xs text-slate-600 dark:text-slate-400 mt-1">
+          <div className="text-xs text-slate-600 dark:text-slate-400 mt-1">
             Сільське господарство
-          </p>
+          </div>
         </div>
 
         <div className="bg-white dark:bg-slate-800 p-3 rounded-lg shadow">
@@ -51,9 +51,9 @@ duration: "120 хв"
           <h5 className="font-bold text-sm text-blue-900 dark:text-blue-100">
             Переробка
           </h5>
-          <p className="text-xs text-slate-600 dark:text-slate-400 mt-1">
+          <div className="text-xs text-slate-600 dark:text-slate-400 mt-1">
             Виробництво
-          </p>
+          </div>
         </div>
 
         <div className="bg-white dark:bg-slate-800 p-3 rounded-lg shadow">
@@ -61,9 +61,9 @@ duration: "120 хв"
           <h5 className="font-bold text-sm text-blue-900 dark:text-blue-100">
             Пакування
           </h5>
-          <p className="text-xs text-slate-600 dark:text-slate-400 mt-1">
+          <div className="text-xs text-slate-600 dark:text-slate-400 mt-1">
             Упаковка
-          </p>
+          </div>
         </div>
 
         <div className="bg-white dark:bg-slate-800 p-3 rounded-lg shadow">
@@ -71,9 +71,9 @@ duration: "120 хв"
           <h5 className="font-bold text-sm text-blue-900 dark:text-blue-100">
             Дистрибуція
           </h5>
-          <p className="text-xs text-slate-600 dark:text-slate-400 mt-1">
+          <div className="text-xs text-slate-600 dark:text-slate-400 mt-1">
             Транспортування
-          </p>
+          </div>
         </div>
 
         <div className="bg-white dark:bg-slate-800 p-3 rounded-lg shadow">
@@ -81,9 +81,9 @@ duration: "120 хв"
           <h5 className="font-bold text-sm text-blue-900 dark:text-blue-100">
             Реалізація
           </h5>
-          <p className="text-xs text-slate-600 dark:text-slate-400 mt-1">
+          <div className="text-xs text-slate-600 dark:text-slate-400 mt-1">
             Торгівля
-          </p>
+          </div>
         </div>
       </div>
 
@@ -185,25 +185,25 @@ duration: "120 хв"
       <div className="bg-gradient-to-br from-blue-500 to-blue-600 text-white p-4 rounded-lg">
         <div className="text-3xl mb-2">📋</div>
         <h4 className="font-bold text-sm">Політика безпеки</h4>
-        <p className="text-xs mt-2 opacity-90">Зобов'язання керівництва</p>
+        <div className="text-xs mt-2 opacity-90">Зобов'язання керівництва</div>
       </div>
 
       <div className="bg-gradient-to-br from-green-500 to-green-600 text-white p-4 rounded-lg">
         <div className="text-3xl mb-2">🎯</div>
         <h4 className="font-bold text-sm">Цілі та планування</h4>
-        <p className="text-xs mt-2 opacity-90">Вимірювані цілі безпеки</p>
+        <div className="text-xs mt-2 opacity-90">Вимірювані цілі безпеки</div>
       </div>
 
       <div className="bg-gradient-to-br from-purple-500 to-purple-600 text-white p-4 rounded-lg">
         <div className="text-3xl mb-2">️</div>
         <h4 className="font-bold text-sm">Процеси та ресурси</h4>
-        <p className="text-xs mt-2 opacity-90">Управління операціями</p>
+        <div className="text-xs mt-2 opacity-90">Управління операціями</div>
       </div>
 
       <div className="bg-gradient-to-br from-orange-500 to-orange-600 text-white p-4 rounded-lg">
         <div className="text-3xl mb-2">📊</div>
         <h4 className="font-bold text-sm">Моніторинг та покращення</h4>
-        <p className="text-xs mt-2 opacity-90">Постійне вдосконалення</p>
+        <div className="text-xs mt-2 opacity-90">Постійне вдосконалення</div>
       </div>
     </div>
 
@@ -273,40 +273,34 @@ duration: "120 хв"
 
 <Example title="Приклад впровадження ISO 22000">
   <div className="space-y-3">
-    <p>
+    <div>
       <strong>Молочний завод «Карпати» впровадив ISO 22000:</strong>
-    </p>
-
-    <p>
+    </div>
+    <div>
       <strong>1. Політика безпеки:</strong> «Забезпечення виробництва безпечної
       молочної продукції відповідно до вимог законодавства та очікувань
       споживачів».
-    </p>
-
+    </div>
     <div>
-      <p>
+      <div>
         <strong>2. Цілі:</strong>
-      </p>
-
+      </div>
       <ul className="list-disc list-inside ml-4 space-y-1">
         <li>Зниження кількості невідповідностей на 30%</li>
         <li>100% відповідність мікробіологічним показникам</li>
         <li>Нульовий рівень скарг споживачів на безпеку</li>
       </ul>
     </div>
-
     <div>
-      <p>
+      <div>
         <strong>3. Результати через рік:</strong>
-      </p>
-
+      </div>
       <ul className="list-disc list-inside ml-4 space-y-1">
         <li>Зниження невідповідностей на 45%</li>
         <li>Успішна сертифікація</li>
         <li>Збільшення експорту на 25%</li>
       </ul>
     </div>
-
   </div>
 </Example>
 
@@ -469,58 +463,48 @@ duration: "120 хв"
 
 <Example title="Приклад визначення ККТ для пастеризації молока">
   <div className="space-y-3">
-    <p>
-      <strong>Критична контрольна точка: Пастеризація:</strong>
-    </p>
-
-    <p>
-      <strong>1. Небезпека:</strong> Патогенні мікроорганізми (_Salmonella_, _Listeria_, _E. coli_).
-    </p>
-
     <div>
-      <p>
+      <strong>Критична контрольна точка: Пастеризація:</strong>
+    </div>
+    <div>
+      <strong>1. Небезпека:</strong> Патогенні мікроорганізми (_Salmonella_, _Listeria_, _E. coli_).
+    </div>
+    <div>
+      <div>
         <strong>2. Критичні межі:</strong>
-      </p>
-
+      </div>
       <ul className="list-disc list-inside ml-4 space-y-1">
         <li>Температура: 72–75 °C</li>
         <li>Час витримки: 15–20 секунд</li>
       </ul>
     </div>
-
     <div>
-      <p>
+      <div>
         <strong>3. Моніторинг:</strong>
-      </p>
-
+      </div>
       <ul className="list-disc list-inside ml-4 space-y-1">
         <li>Автоматичний запис температури</li>
         <li>Перевірка кожні 30 хвилин</li>
       </ul>
     </div>
-
     <div>
-      <p>
+      <div>
         <strong>4.Коригувальні дії:</strong>
-      </p>
-
+      </div>
       <ul className="list-disc list-inside ml-4 space-y-1">
         <li>При порушенні режиму — автоматичне відведення продукту</li>
         <li>Повторна пастеризація або утилізація</li>
       </ul>
     </div>
-
     <div>
-      <p>
+      <div>
         <strong>5. Верифікація:</strong>
-      </p>
-
+      </div>
       <ul className="list-disc list-inside ml-4 space-y-1">
         <li>Щоденний аналіз записів</li>
         <li>Мікробіологічний контроль готової продукції</li>
       </ul>
     </div>
-
   </div>
 </Example>
 
@@ -546,9 +530,9 @@ duration: "120 хв"
           <div className="bg-blue-100 dark:bg-blue-900/30 p-4 rounded-lg">
             <div className="text-3xl mb-2">🌾</div>
             <h5 className="font-bold text-sm">Сировина</h5>
-            <p className="text-xs text-slate-600 dark:text-slate-400">
+            <div className="text-xs text-slate-600 dark:text-slate-400">
               Партія №001
-            </p>
+            </div>
           </div>
         </div>
 
@@ -558,9 +542,9 @@ duration: "120 хв"
           <div className="bg-green-100 dark:bg-green-900/30 p-4 rounded-lg">
             <div className="text-3xl mb-2">🏭</div>
             <h5 className="font-bold text-sm">Виробництво</h5>
-            <p className="text-xs text-slate-600 dark:text-slate-400">
+            <div className="text-xs text-slate-600 dark:text-slate-400">
               Зміна А
-            </p>
+            </div>
           </div>
         </div>
 
@@ -570,9 +554,9 @@ duration: "120 хв"
           <div className="bg-purple-100 dark:bg-purple-900/30 p-4 rounded-lg">
             <div className="text-3xl mb-2">📦</div>
             <h5 className="font-bold text-sm">Пакування</h5>
-            <p className="text-xs text-slate-600 dark:text-slate-400">
+            <div className="text-xs text-slate-600 dark:text-slate-400">
               Серія 123
-            </p>
+            </div>
           </div>
         </div>
 
@@ -582,18 +566,18 @@ duration: "120 хв"
           <div className="bg-orange-100 dark:bg-orange-900/30 p-4 rounded-lg">
             <div className="text-3xl mb-2">🛒</div>
             <h5 className="font-bold text-sm">Реалізація</h5>
-            <p className="text-xs text-slate-600 dark:text-slate-400">
+            <div className="text-xs text-slate-600 dark:text-slate-400">
               Магазин №5
-            </p>
+            </div>
           </div>
         </div>
       </div>
 
       <div className="mt-6 text-center">
-        <p className="text-sm text-slate-600 dark:text-slate-400">
+        <div className="text-sm text-slate-600 dark:text-slate-400">
           <b>Принцип "Крок назад — крок вперед"</b>: кожен учасник
           ланцюга повинен знати постачальника та споживача продукції
-        </p>
+        </div>
       </div>
     </div>
 
@@ -672,35 +656,38 @@ duration: "120 хв"
 
 <Example title="Приклад відкликання продукції">
   <div className="space-y-3">
-    <p>
+    <div>
       <strong>Ситуація:</strong> Виявлено перевищення рівня антибіотиків у партії молока.
-    </p>
-
-        <div>
-          <p>
-            <strong>Дії</strong>
-          </p>
-
-          <ul className="list-disc list-inside ml-4 space-y-1">
-            <li>Зупинка реалізації партії №12345</li>
-            <li>Повідомлення Держпродспоживслужби</li>
-            <li>Оголошення для споживачів через ЗМІ</li>
-            <li>Збір продукції з торговельних точок</li>
-            <li>Утилізація відповідно до вимог</li>
-            <li>Розслідування причин (порушення ветеринарного контролю)</li>
-            <li>Впровадження додаткового вхідного контролю</li>
-          </ul>
-        </div>
-
+    </div>
+    <div>
+      <div>
+        <strong>Дії</strong>
+      </div>
+      <ul className="list-disc list-inside ml-4 space-y-1">
+        <li>Зупинка реалізації партії №12345</li>
+        <li>Повідомлення Держпродспоживслужби</li>
+        <li>Оголошення для споживачів через ЗМІ</li>
+        <li>Збір продукції з торговельних точок</li>
+        <li>Утилізація відповідно до вимог</li>
+        <li>Розслідування причин (порушення ветеринарного контролю)</li>
+        <li>Впровадження додаткового вхідного контролю</li>
+      </ul>
+    </div>
   </div>
-
 </Example>
 
 <SelfCheck>
-  1. Що таке система управління безпечністю харчових продуктів (СУБХП)? 2.
-  Назвіть основні міжнародні стандарти у сфері безпечності харчових продуктів.
-  3. Які основні вимоги ISO 22000:2018? 4. Що таке програми попередніх умов
-  (PRP)? 5. Перелічіть сім принципів HACCP. 6. Що таке простежуваність харчових
-  продуктів? 7. Яка процедура відкликання продукції з ринку? 8. Як ISO 22000
-  інтегрує HACCP з системами менеджменту якості?
+  <ol className="list-decimal list-inside ml-4 space-y-1">
+    <li>Що таке система управління безпечністю харчових продуктів (СУБХП)?</li>
+    <li>
+      Назвіть основні міжнародні стандарти у сфері безпечності харчових
+      продуктів.
+    </li>
+    <li>Які основні вимоги ISO 22000:2018?</li>
+    <li>Що таке програми попередніх умов (PRP)?</li>
+    <li>Перелічіть сім принципів HACCP.</li>
+    <li>Що таке простежуваність харчових продуктів?</li>
+    <li>Яка процедура відкликання продукції з ринку?</li>
+    <li>Як ISO 22000 інтегрує HACCP з системами менеджменту якості?</li>
+  </ol>
 </SelfCheck>

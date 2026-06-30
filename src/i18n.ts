@@ -1,25 +1,42 @@
-import { getRequestConfig } from 'next-intl/server';
-import { locales } from './config/i18n';
+import { getRequestConfig } from "next-intl/server";
+import { notFound } from "next/navigation";
+import { routing } from "./i18n/routing";
 
-export default getRequestConfig(async ({ locale }) => {
-  // Перевірка на валідність locale
-  if (!locale || !locales.includes(locale as any)) {
-    return {
-      locale: 'uk',
-      messages: {}
-    };
+export default getRequestConfig(async ({ requestLocale }) => {
+  let locale = await requestLocale;
+
+  if (!locale || !routing.locales.includes(locale as any)) {
+    locale = routing.defaultLocale;
   }
 
   try {
+    const messages = {
+      common: (await import(`./messages/${locale}/common.json`)).default,
+      navigation: (await import(`./messages/${locale}/navigation.json`))
+        .default,
+      footer: (await import(`./messages/${locale}/footer.json`)).default,
+      home: (await import(`./messages/${locale}/home.json`)).default,
+      education: (await import(`./messages/${locale}/education.json`)).default,
+
+      courses: {
+        foodSafetyManagement: (
+          await import(
+            `./messages/${locale}/courses/food-safety-management.json`
+          )
+        ).default,
+
+        riskManagement: (
+          await import(`./messages/${locale}/courses/risk-management.json`)
+        ).default,
+      },
+    };
+
     return {
-      locale, // ← Це обов'язково!
-      messages: (await import(`./messages/${locale}.json`)).default
+      locale,
+      messages,
     };
   } catch (error) {
     console.error(`Failed to load messages for locale: ${locale}`, error);
-    return {
-      locale: 'uk',
-      messages: {}
-    };
+    notFound();
   }
 });

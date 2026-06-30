@@ -1,0 +1,86 @@
+{
+  "title": "Food Safety Management Systems",
+  "description": "Comprehensive course on quality and safety management of food products",
+  "topics": "Course topics",
+  "intro": {
+    "title": "📖 Course Introduction",
+    "description": "In current economic conditions, rapid changes in the external environment require enterprises to build and operate quality management systems, as this determines the efficiency of these enterprises.",
+    "goal": {
+      "title": "Course Goal",
+      "description": "The lecture notes are devoted to solving an actual scientific and applied problem of developing theoretical and methodological foundations for assessing the quality of enterprise management systems, as well as practical recommendations for their implementation."
+    },
+    "competencies": {
+      "title": "Competencies",
+      "subtitle": "According to the requirements of the educational and professional program \"Technological Expertise and Food Safety\", applicants should acquire the ability to obtain competencies:",
+      "integral": "Integral",
+      "integralDescription": "solve tasks of research and/or innovative nature in the field of food technologies",
+      "general": "General",
+      "generalItems": [
+        "to search, process and analyze information from various sources",
+        "conduct research at the appropriate level",
+        "generate new ideas (creativity)",
+        "work in an international context"
+      ],
+      "professional": "Professional",
+      "professionalItems": [
+        "develop programs for the effective functioning of food industry enterprises",
+        "present and discuss the results of scientific research and projects",
+        "ensure the quality and safety of food products",
+        "knowledge of legislative and regulatory documents"
+      ]
+    },
+    "results": {
+      "title": "Learning Outcomes",
+      "description": "Applicants should achieve the following program learning outcomes:",
+      "result5": "Make effective decisions, evaluate and compare alternatives in the field of food technologies, including in uncertain situations and in the presence of risks",
+      "result6": "Assess and eliminate risks and uncertainties when making technological and organizational decisions in production conditions to ensure the quality and safety of food products"
+    },
+    "keyPoint": {
+      "title": "Key Point",
+      "description": "In the food industry, the most recognized standards that establish requirements for management systems are such standards as <strong>ISO 22000</strong>, <strong>FSSC 22000</strong>, <strong>IFS</strong>, <strong>BRC</strong>. An overview of these standards is also presented in this publication."
+    },
+    "authors": {
+      "title": "About the Authors",
+      "popova": "Popova N.V.",
+      "popovaTitle": "PhD in Technical Sciences, Assoc. Prof.",
+      "mysyura": "Mysiura T.H.",
+      "mysyuraTitle": "PhD in Technical Sciences, Assoc. Prof.",
+      "reviewer": "Reviewer: Arsenieva L.Yu., Dr. of Technical Sciences, Prof.",
+      "copyright": "© N.V. Popova, T.H. Mysiura, 2021<br />© NUFT, 2021"
+    }
+  },
+  "lessons": {
+    "topic1": {
+      "title": "Theoretical substantiation of management system effectiveness",
+      "description": "Quality of management system, controlling and its role in ensuring quality"
+    },
+    "topic2": {
+      "title": "Methodological approach to effectiveness assessment",
+      "description": "Process scheme, personnel, management potential, organizational climate"
+    },
+    "topic3": {
+      "title": "Management system according to ISO 22000",
+      "description": "Product control, standards, ISO 22000 requirements"
+    },
+    "topic4": {
+      "title": "Effectiveness diagnostics methodology",
+      "description": "Conceptual approach, functional character, adaptation model"
+    },
+    "topic5": {
+      "title": "BRC Standard",
+      "description": "BRC Global Standard — Food, characteristics, features"
+    },
+    "topic6": {
+      "title": "IFS Food Standard",
+      "description": "Implementation goals, advantages, sectors, certification"
+    },
+    "topic7": {
+      "title": "FSSC 22000 Standard",
+      "description": "Formation stages, advantages, certification, PAS 220"
+    },
+    "topic8": {
+      "title": "FSSC 22000 Certification Scheme",
+      "description": "Certification principles, organizational level, processes"
+    }
+  }
+}

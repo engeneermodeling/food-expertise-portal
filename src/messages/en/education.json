@@ -1,0 +1,33 @@
+{
+  "title": "Education",
+  "description": "Educational materials, courses, and case studies for students and professionals in food safety.",
+  "lessonCount": "lessons",
+  "startCourse": "Start course",
+  "levels": {
+    "beginner": "Beginner",
+    "intermediate": "Intermediate",
+    "advanced": "Advanced",
+    "masters": "Master's level"
+  },
+  "modules": {
+    "title": "Course modules",
+    "theoreticalFoundations": "Theoretical foundations",
+    "efficiencyAssessment": "Efficiency assessment",
+    "iso22000": "ISO 22000",
+    "diagnostics": "Diagnostics",
+    "brc": "BRC",
+    "ifs": "IFS",
+    "fssc22000": "FSSC 22000",
+    "certification": "Certification"
+  },
+  "courses": {
+    "foodSafety": {
+      "title": "Food Safety Management",
+      "description": "A comprehensive course on food safety management systems: HACCP, ISO 22000, FSSC 22000, and other international standards."
+    },
+    "riskManagement": {
+      "title": "Risk Management",
+      "description": "Methods for identifying, assessing, and controlling risks in food production."
+    }
+  }
+}

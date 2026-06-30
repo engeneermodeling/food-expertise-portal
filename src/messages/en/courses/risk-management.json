@@ -1,0 +1,50 @@
+{
+  "title": "Risk Management Concepts in Food Production",
+  "description": "Course on theory and methodology of production safety management, principles of optimal construction and operation of risk management systems",
+  "topics": "Course topics",
+  "intro": {
+    "title": "📖 Course Introduction",
+    "description": "The current state of the Ukrainian market is characterized by the appearance of a significant amount of foreign and domestic products. Unfortunately, it is often characterized by low quality, danger to the human body, and sometimes simply falsified. That is why the problem of product risk protection with an assessment of its species, quantitative and qualitative characteristics was and will be relevant regardless of social formations.",
+    "goal": {
+      "title": "Course Goal",
+      "description": "The purpose of teaching the academic discipline \"Risk Management Concepts in Food Production\" is to form in applicants a system of knowledge on the theory and methodology of production safety management, principles of optimal construction and operation of management systems; to ensure the study of regulatory and organizational issues regarding modern concepts of risk analysis and management in production, as well as the selection of methods for their determination."
+    },
+    "competencies": {
+      "title": "Competencies",
+      "subtitle": "According to the requirements of the educational and professional program \"Technological Expertise and Food Safety\", applicants should acquire the ability to obtain competencies:",
+      "integral": "Integral",
+      "integralDescription": "solve tasks of research and/or innovative nature in the field of food technologies",
+      "general": "General",
+      "generalItems": [
+        "ability to search, process and analyze information from various sources",
+        "conduct research at the appropriate level",
+        "generate new ideas (creativity)",
+        "work in an international context"
+      ],
+      "professional": "Special",
+      "professionalItems": [
+        "develop programs for the effective functioning of food industry enterprises and/or restaurant establishments in accordance with industry development forecasts in the context of globalization",
+        "knowledge of legislative and regulatory documents reflecting issues of hygienic regulation of harmful substances in food products, theories and methodologies of contaminant normalization, prevention of body intoxication, scientific and organizational aspects of xenobiotic regulation",
+        "ability to build and optimize information systems for making management decisions in the production of quality and safe food products"
+      ]
+    },
+    "results": {
+      "title": "Learning Outcomes",
+      "description": "Applicants should achieve the following program learning outcomes:",
+      "result4": "make effective decisions, evaluate and compare alternatives in the field of food technologies, including in uncertain situations and in the presence of risks, as well as in interdisciplinary contexts",
+      "result5": "assess and eliminate risks and uncertainties when making technological and organizational decisions in production conditions to ensure the quality and safety of food products",
+      "result6": "be able to conduct hygienic assessment of food safety and develop hygienic standards for the content of certain groups of xenobiotics in food products"
+    },
+    "keyPoint": {
+      "title": "Key Point",
+      "description": "The problem of food safety is a complex comprehensive problem that requires numerous efforts to solve, both from scientists - biochemists, microbiologists, - and from manufacturers, sanitary and epidemiological services, government bodies and, finally, consumers."
+    },
+    "authors": {
+      "title": "About the Authors",
+      "popova": "Popova N.V.",
+      "popovaTitle": "PhD in Technical Sciences, Assoc. Prof.",
+      "reviewer": "Reviewer: Kiiko V., PhD in Technical Sciences, Assoc. Prof.",
+      "copyright": "© N.V. Popova, 2024<br />© NUFT, 2024"
+    }
+  }
+}

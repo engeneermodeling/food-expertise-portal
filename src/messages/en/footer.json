@@ -1,0 +1,26 @@
+{
+  "description": "Professional portal for food product expertise. Safety standards, management systems, laboratory research and educational materials.",
+  "copyright": "© {year} FoodExpertisePortal. All rights reserved.",
+  "nav": {
+    "title": "Navigation",
+    "home": "Home",
+    "about": "About us",
+    "contact": "Contact",
+    "education": "Education"
+  },
+  "modules": {
+    "title": "Modules",
+    "systems": "Management Systems",
+    "standards": "Standards",
+    "laboratory": "Laboratory",
+    "glossary": "Glossary"
+  },
+  "contact": {
+    "title": "Contact",
+    "location": "Ukraine, Kyiv"
+  },
+  "legal": {
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use"
+  }
+}

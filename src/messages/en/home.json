@@ -1,0 +1,53 @@
+{
+  "siteTitle": "FoodExpertisePortal",
+  "homeTitle": "Food Product Expertise Portal",
+  "about": "About the portal",
+  "systems": "Management Systems",
+  "standards": "Standards",
+  "glossary": "Glossary",
+  "contacts": "Contacts",
+  "hero": {
+    "badge": "Professional expertise portal",
+    "title1": "Expertise",
+    "title2": "of food products",
+    "description": "Platform for food safety standards, management systems, laboratory research and educational materials.",
+    "ctaPrimary": "Start learning",
+    "ctaSecondary": "View standards",
+    "stats": {
+      "standards": "Standards",
+      "systems": "Systems",
+      "materials": "Materials"
+    }
+  },
+  "modules": {
+    "title": "Portal Sections",
+    "subtitle": "Choose the direction you need for working with food product expertise",
+    "open": "Go to",
+    "items": {
+      "systems": {
+        "title": "Management Systems",
+        "description": "HACCP, ISO 22000, FSSC 22000, BRCGS, IFS and other safety systems."
+      },
+      "standards": {
+        "title": "Standards",
+        "description": "Regulatory documents, DSTU, technical regulations and legislation."
+      },
+      "laboratory": {
+        "title": "Laboratory",
+        "description": "Methods of microbiological, chemical and physico-chemical research."
+      },
+      "education": {
+        "title": "Education",
+        "description": "Educational materials, courses and cases for students and specialists."
+      },
+      "glossary": {
+        "title": "Glossary",
+        "description": "Interpretation of terms and definitions in the field of food safety."
+      },
+      "search": {
+        "title": "Search",
+        "description": "Global search across all materials and documents of the portal."
+      }
+    }
+  }
+}
